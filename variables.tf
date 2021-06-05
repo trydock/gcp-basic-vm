@@ -10,9 +10,34 @@ variable "gcp_project_name" {
   default     = null
 }
 
-variable "gcp_region {
+variable "gcp_region" {
   description = "Specify a GCP region"
   default     = null
+}
+
+variable "gcp_subnetwork" {
+  description = "Specify OS Image Family"
+  default     = "default"
+}
+
+variable "gcp_instance_template_prefix" {
+  description = "Prefix for GCP Instance Template"
+  default     = null
+}
+
+variable "gcp_instance_template_machine_type" {
+  description = "Specify GCP Instance Machine Type"
+  default     = "f1-micro"
+}
+
+variable "gcp_instance_template_image_project" {
+  description = "Specify OS Image Project"
+  default     = "debian-cloud"
+}
+
+variable "gcp_instance_template_image_family" {
+  description = "Specify OS Image Family"
+  default     = "debian-10"
 }
 
 variable "nat_ip" {
