@@ -1,0 +1,10 @@
+gcp_cred_file="<replace_with_path_to_json_credentials_file>"
+gcp_project="<replace_with_project_name>"
+gcp_region="asia-southeast1"
+gcp_instance_template_prefix="instance-template-"
+service_account={
+  email = "<replace_with_service_account_name>@<replace_with_project_name>.iam.gserviceaccount.com"
+  scopes = [
+    "cloud-platform"
+  ]
+}
