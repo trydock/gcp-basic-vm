@@ -1,6 +1,13 @@
 # gcp-basic-vm
 Basic Standalone VM instance in GCP
 
+## Prerequisite
+
+- Create a GCP service account.
+- Add permissions to create VM instance and Instance Templates.
+- Add a key to service account.
+- Download the json key file from the GCP service account.
+
 ## Usage:
 
 Clone to your workstation.
