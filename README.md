@@ -1,7 +1,7 @@
 # gcp-basic-vm
 Basic Standalone VM instance in GCP
 
-# Usage:
+## Usage:
 
 Clone to your workstation.
 
