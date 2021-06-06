@@ -5,7 +5,7 @@ variable "gcp_cred_file" {
   default     = null
 }
 
-variable "gcp_project_name" {
+variable "gcp_project" {
   description = "Name of GCP project"
   default     = null
 }
