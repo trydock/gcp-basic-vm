@@ -51,12 +51,7 @@ variable "network_tier" {
 }
 
 variable "service_account" {
-  default = {
-    email = "provisioner@project_name.iam.gserviceaccount.com"
-    scopes = [
-      "cloud-platform"
-    ]
-  }
+  default = null
   type = object({
     email  = string,
     scopes = set(string)
